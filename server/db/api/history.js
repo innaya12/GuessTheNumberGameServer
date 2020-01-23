@@ -9,6 +9,7 @@ function getAll() {
                 reject(error);
                 return;
             }
+            console.log(results)
             resolve(results);
         });
     });
